@@ -1,0 +1,20 @@
+.button-column {
+  overflow-y: scroll;
+  height: 100%;
+  padding-right: 15px;
+  button {
+    margin-top: 10px;
+    background-color: grey;
+    flex-shrink: 0;
+    .mat-button-wrapper {
+      font-family: 'Montserrat Alternates', sans-serif;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      color: white;
+      font-size: .85em;
+    }
+    &:nth-child(2) {
+      margin-top: 0px;
+    }
+  }
+}

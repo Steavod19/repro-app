@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+
+// Themes
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+// Global
+@import "./app/styles/normalize";
+
+// Components
+@import "./app/app.component";
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:300,400,600,700');
+
+
+
+html, body, .repro-ui {
+  height: 100% !important;
+}
+
+
+* { font-family: 'Montserrat Alternates', sans-serif !important; }
+
+body {
+  font-size: 15px;
+}
+
+code {
+  font-family: monospace !important;
+  font-size: .95em;
+}
