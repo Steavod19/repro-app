@@ -3,30 +3,6 @@
   <md-input-container>
      <input mdInput placeholder="Search" type="text" mdInput >
   </md-input-container>
-
-  <button md-button>Flat button</button>
-  <button md-button>Flat button</button>
-  <button md-button>Flat button</button>
-  <button md-button>Flat button</button>
-  <button md-button>Flat button</button>
-  <button md-button>Flat button</button>
-  <button md-button>Flat button</button>
-  <button md-button>Flat button</button>
-  <button md-button>Flat button</button>
-  <button md-button>Flat button</button>
-  <button md-button>Flat button</button>
-  <button md-button>Flat button</button>
-  <button md-button>Flat button</button>
-  <button md-button>Flat button</button>
-  <button md-button>Flat button</button>
-  <button md-button>Flat button</button>
-  <button md-button>Flat button</button>
-  <button md-button>Flat button</button>
-  <button md-button>Flat button</button>
-  <button md-button>Flat button</button>
-  <button md-button>Flat button</button>
-  <button md-button>Flat button</button>
-  <button md-button>Flat button</button>
-  <button md-button>Flat button</button>
-
+  
+  <button *ngFor="let hero of heroes" md-button>{{hero.name}}</button>
 </div>

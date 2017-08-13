@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-repro-ui',
+  selector: 'repro-ui',
   templateUrl: './repro-ui.component.html',
   styleUrls: ['./repro-ui.component.scss']
 })

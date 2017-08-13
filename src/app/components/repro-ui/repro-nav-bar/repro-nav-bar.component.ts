@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-repro-nav-bar',
+  selector: 'repro-nav-bar',
   templateUrl: './repro-nav-bar.component.html',
   styleUrls: ['./repro-nav-bar.component.scss']
 })
