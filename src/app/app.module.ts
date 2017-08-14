@@ -42,8 +42,8 @@ export const firebaseConfig = {
     FormsModule,
     HttpModule,
     AngularFireModule.initializeApp(firebaseConfig),
-AngularFireDatabaseModule,
-AngularFireAuthModule,
+    AngularFireDatabaseModule,
+    AngularFireAuthModule,
     MaterialModule,
     BrowserAnimationsModule,
     FlexLayoutModule
